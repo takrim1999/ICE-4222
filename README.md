@@ -1,2 +1,2 @@
 # ICE-4222
-Cryptography and Network Security Lab
+## Cryptography and Network Security Lab
