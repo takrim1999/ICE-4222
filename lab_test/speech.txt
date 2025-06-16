@@ -1,0 +1,7 @@
+So, as a lab test is going to be conducted at 17-06-2025, I am launching immediate solutions to the problems.
+Let's go through them as fast as possible.
+Topics:
+1. Ceasar Cipher
+2. Playfair cipher
+3. RSA Algorithm
+4. Diffie-Hellman
