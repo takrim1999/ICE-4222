@@ -1,7 +1,7 @@
-with open("EXP01/cryptanalysis/cipher_text.txt","r") as file:
+with open("cipher_text.txt","r") as file:
     cipher = file.read()
     print("Theft Cipher: ", cipher)
-with open("EXP01/cryptanalysis/words.txt", "r") as word_file:
+with open("words.txt", "r") as word_file:
     words = word_file.read().strip().split()
 
 def test_key(cipher,possible_key):
@@ -23,7 +23,7 @@ def test_key(cipher,possible_key):
             print("Possible Key: ",  possible_key)
             print("Possible recovered text: ", possible_recovered_text)
             return True
-    # with open("EXP01/cryptography/decryption/recovered_text.txt","w") as recovered:
+    # with open("recovered_text.txt","w") as recovered:
     #     recovered.write(recovered_text)
     return test_alpha_text, possible_recovered_text
 
